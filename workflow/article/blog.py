@@ -120,7 +120,7 @@ def make_daily_category(category, articles):
         
         # 为除最后一篇外的所有文章添加分隔符
         if i < len(articles) - 1:
-            article_intro += "\n\n---\n"
+            article_intro += "\n---\n"
             
         content += article_intro
         
