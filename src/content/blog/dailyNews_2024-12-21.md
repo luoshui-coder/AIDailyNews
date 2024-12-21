@@ -1,160 +1,181 @@
 ---
 title: "Daily News #2024-12-21"
-date: "2024-12-21 12:21:21"
-description: "🚀 ChatGPT: Everything to Know About the AI Chatbot
-🚀 OpenAI 发布新一代推理模型 o3 和成本效益卓越的 o3-mini
-🔥 Phi-4迎来40%性能提升！
-💡 CUDA基础编程
-💭 【译】放眼未来，回顾过去：吴恩达的深度思考
-🚀 北大校友编程AI‘o3’解题陶哲轩难题
-🚤 Nvidia Clears EU Regulatory Hurdle to Acquire Run:ai
-🌍 Google Expands Gemini’s In-Depth Research Mode to 40 Languages
-📊 Full List of 49 US AI Startups Raising Over $100M in 2024
-💻 ChatGPT 桌面应用新增多项无缝协作功能
-👀 HelixFold3重磅升级，RNA结构预测精度大幅提升
-💡 Gemini 2.0 Flash Thinking发布，加速创新思维进程"
+date: "2024-12-21 17:13:40"
+description: "💥 OpenAI发布o3系列模型突破ARC-AGI基准
+🚀 OpenAI o3模型在ARC-AGI测试中取得巨大突破
+💫 o3：突破 ARC-AGI 基准，博士级问题求解能力
+👀 LLaMA视觉模型驱动的强大OCR工具
+🚀 大众感叹面前无“中国支票”！欧洲汽车供应链迎批量衰退
+🚀 少数民族Speech AI技术迈向2024年度重大突破
+🤖 编程大神o3破解难题 模拟人编程能力跻身前200
+😋 苹果智能摘要翻车用户想关掉它
+🎯 通过ARC-AGI的测试并不等于实现了通用人工智能
+📊 GitHub 年末热搜出炉：十大热门项目揭晓
+📱 贴近生活的AI：OPPO与鸿蒙元服务，手机互传新方式探索
+💰 向佐没疯，他赚疯了：APP应用赚得盆满钵满
+🔍 被大众遗忘的轻App：依然有其生存空间
+💡 Rust与C++结合：Rust程序员的新选择
+🚀 CUDA基础编程：深度学习新一步"
 tags: 
-- "研究_技术"
-- "人事_公司"
-- "技术"
-- "Mergers & Acquisitions"
-- "桌面应用"
-- "产品发布"
-- "Product"
-- "研究"
-- "创新思维"
-- "Funding"
-- "Updates"
-- "结构预测"
-- "产品更新"
-- "重大技术突破"
-- "Investment"
-- "Internationalization"
-- "AI模型"
+- "图像识别"
+- "技术进步"
 - "技术进展"
-- "性能改进"
-- "AI"
-- "Hardware"
-- "重大突破"
-- "生物计算"
+- "软件开发"
+- "重大新闻"
+- "研究_技术"
+- "基准测试"
+- "编程语言"
+- "AI突破"
+- "研究进展"
+- "科技动态"
+- "AI模型"
+- "市场分析"
+- "重要新闻"
+- "产品更新"
+- "OCR技术"
+- "技术突破"
+- "手机互传"
+- "商业相关"
+- "科技进展"
+- "争议"
+- "GPU编程"
+- "代码优化"
+- "深度学习"
 
 ---
 
-> - 🚀 ChatGPT: Everything to Know About the AI Chatbot
-> - 🚀 OpenAI 发布新一代推理模型 o3 和成本效益卓越的 o3-mini
-> - 🔥 Phi-4迎来40%性能提升！
-> - 💡 CUDA基础编程
-> - 💭 【译】放眼未来，回顾过去：吴恩达的深度思考
-> - 🚀 北大校友编程AI‘o3’解题陶哲轩难题
-> - 🚤 Nvidia Clears EU Regulatory Hurdle to Acquire Run:ai
-> - 🌍 Google Expands Gemini’s In-Depth Research Mode to 40 Languages
-> - 📊 Full List of 49 US AI Startups Raising Over $100M in 2024
-> - 💻 ChatGPT 桌面应用新增多项无缝协作功能
-> - 👀 HelixFold3重磅升级，RNA结构预测精度大幅提升
-> - 💡 Gemini 2.0 Flash Thinking发布，加速创新思维进程
+> - 💥 OpenAI发布o3系列模型突破ARC-AGI基准
+> - 🚀 OpenAI o3模型在ARC-AGI测试中取得巨大突破
+> - 💫 o3：突破 ARC-AGI 基准，博士级问题求解能力
+> - 👀 LLaMA视觉模型驱动的强大OCR工具
+> - 🚀 大众感叹面前无“中国支票”！欧洲汽车供应链迎批量衰退
+> - 🚀 少数民族Speech AI技术迈向2024年度重大突破
+> - 🤖 编程大神o3破解难题 模拟人编程能力跻身前200
+> - 😋 苹果智能摘要翻车用户想关掉它
+> - 🎯 通过ARC-AGI的测试并不等于实现了通用人工智能
+> - 📊 GitHub 年末热搜出炉：十大热门项目揭晓
+> - 📱 贴近生活的AI：OPPO与鸿蒙元服务，手机互传新方式探索
+> - 💰 向佐没疯，他赚疯了：APP应用赚得盆满钵满
+> - 🔍 被大众遗忘的轻App：依然有其生存空间
+> - 💡 Rust与C++结合：Rust程序员的新选择
+> - 🚀 CUDA基础编程：深度学习新一步
 
 ## 🤖 AI News
 
-### [🚀 ChatGPT: Everything to Know About the AI Chatbot](https://techcrunch.com/2024/12/20/chatgpt-everything-to-know-about-the-ai-chatbot/)
+### [💥 OpenAI发布o3系列模型突破ARC-AGI基准](https://www.36kr.com/p/3087654394362243)
 
-> *2024-12-21 04:15:00 · AI News & Artificial Intelligence | TechCrunch*
+> *2024-12-21 13:00:47 · 36氪 - 人工智能·AI*
 
-ChatGPT, part of OpenAI, has grown to 300 million weekly active users. The company has rolled out numerous updates, including Advanced Voice Mode, integration with Siri, and updates to GPT-4o. OpenAI also faced internal drama, including significant leadership exits.
-
-
----
-
-### [💡 CUDA基础编程](https://juejin.cn/post/7450690869248262159)
-
-> *2024-12-21 11:35:11 · 掘金 人工智能*
-
-文章介绍了CUDA基础编程，帮助开发者开启深度学习GPU加速之门，介绍了GPU编程的基本概念和实现方法，有助于提高深度学习模型的运行效率。
-
+OpenAI推出全新的推理模型o3及其mini版本，在ARC-AGI基准测试中取得突破性成绩，标志着人工智能能力的显著提升和质变。
 
 ---
 
-### [💭 【译】放眼未来，回顾过去：吴恩达的深度思考](https://juejin.cn/post/7450464156505686031)
+### [🚀 OpenAI o3模型在ARC-AGI测试中取得巨大突破](https://www.36kr.com/p/3088122103117959)
 
-> *2024-12-21 00:16:44 · 掘金 人工智能*
+> *2024-12-21 12:41:01 · 36氪 - 人工智能·AI*
 
-吴恩达分享了他的深度思考，回顾了过去在AI领域的贡献，并对未来进行了展望。文章还提到了他的一些观点和建议，对研究者和从业者都有一定的启发意义。
-
+OpenAI的o3模型在专门设计的ARC-AGI基准测试中表现出色，突破了以往的限制，展现出AI在适应新任务上的巨大进步。
 
 ---
 
-### [🚀 北大校友编程AI‘o3’解题陶哲轩难题](https://www.qbitai.com/2024/12/235512.html)
+### [💫 o3：突破 ARC-AGI 基准，博士级问题求解能力](https://www.36kr.com/p/3087654394362243)
+
+> *2024-12-21 13:00:47 · 36氪 - AI相关文章*
+
+o3的研究团队在 ARC-AGI 基准测试中取得了突破性进展，展示了在博士级问题求解方面的能力。这次测试验证了其AI模型在复杂问题解决上的卓越表现，标志着AI技术在智能领域的重要迈进。
+
+---
+
+### [👀 LLaMA视觉模型驱动的强大OCR工具](https://juejin.cn/post/7450691949168853011)
+
+> *2024-12-21 13:48:34 · 掘金 人工智能*
+
+基于LLaMA视觉模型的强大OCR工具现已推出，支持批量处理和进度追踪，同时支持多种输出格式，提供卓越的OCR体验。
+
+---
+
+### [🚀 大众感叹面前无“中国支票”！欧洲汽车供应链迎批量衰退](https://www.36kr.com/p/3087175585134728)
+
+> *2024-12-21 09:30:35 · 36氪 - 24小时热榜*
+
+今年9月，大众因在中国市场的销量下滑和降本增效计划引发工会抗议，CEO奥博穆一度指责中国。随着电动汽车的兴起，传统欧洲车企和供应商面临严峻挑战。报告显示，上半年德国汽车零部件公司破产数量比去年同期高出60%，其中包括为大众等提供零部件的WKW和伟巴斯特。欧洲汽车行业普遍利润率下降，众多供应商宣布裁员，未来汽车的结构和生产方式将迎来新一轮调整。
+
+---
+
+### [🚀 少数民族Speech AI技术迈向2024年度重大突破](https://sspai.com/post/94969)
+
+> *2024-12-21 11:00:00 · 少数派*
+
+一项新的研究揭示，少数民族Speech AI技术在2024年度跨过了重要的里程碑。报道详细介绍了技术的研发背景，包括其在语音识别中的创新应用。该技术不仅提高了识别准确率，还增强了多语言环境下的普适性。此突破在语音学和多语言处理领域引起了广泛关注。
+
+---
+
+### [🤖 编程大神o3破解难题 模拟人编程能力跻身前200](https://www.qbitai.com/2024/12/235512.html)
 
 > *2024-12-21 03:39:34 · 量子位-资讯*
 
-北大校友任泓宇开发的编程AI‘o3’在直播间中展示了其强大的解题能力，成功破解了陶哲轩提出的难题。这不仅体现了人工智能在复杂问题解决方面的突破，还展示了其在数学领域的应用潜力。
-
-
----
-
-### [🚤 Nvidia Clears EU Regulatory Hurdle to Acquire Run:ai](https://techcrunch.com/2024/12/20/nvidia-clears-regulatory-hurdle-to-acquire-runai/)
-
-> *2024-12-21 02:54:53 · AI News & Artificial Intelligence | TechCrunch*
-
-Nvidia has cleared the European Union's regulatory hurdle to acquire Israeli GPU orchestration platform Run:ai. The deal is estimated to be around $700 million, though it still awaits U.S. approval.
-
+近日，北大校友任泓宇开发的AI模型o3在数学测试中表现出色，成功破解了困扰数学家陶哲轩的难题。o3的编程能力在全球AI模型排名中跻身前200位，显示了强大的技术实力。
 
 ---
 
-### [🌍 Google Expands Gemini’s In-Depth Research Mode to 40 Languages](https://techcrunch.com/2024/12/20/google-is-expanding-geminis-in-depth-research-mode-to-40-languages/)
+### [😋 苹果智能摘要翻车用户想关掉它](https://www.36kr.com/p/3088295581481346)
 
-> *2024-12-21 02:21:25 · AI News & Artificial Intelligence | TechCrunch*
+> *2024-12-21 16:31:38 · 36氪 - 人工智能·AI*
 
-Google is expanding Gemini's in-depth research mode to 40 more languages, including Arabic, Bengali, and Chinese. The expansion aims to make the AI-powered research tool more accessible globally, though challenges lie in ensuring the summaries are accurate and grammatically correct.
-
-
----
-
-### [📊 Full List of 49 US AI Startups Raising Over $100M in 2024](https://techcrunch.com/2024/12/20/heres-the-full-list-of-49-us-ai-startups-that-have-raised-100m-or-more-in-2024/)
-
-> *2024-12-21 02:12:45 · AI News & Artificial Intelligence | TechCrunch*
-
-TechCrunch has compiled a list of 49 U.S.-based AI startups that have raised $100 million or more in 2024. Notable rounds include OpenAI's $6.6 billion and xAI's $6 billion raises. The category remains a top recipient of venture funding.
-
-## 📚 AI Blogs
-
-### [🚀 OpenAI 发布新一代推理模型 o3 和成本效益卓越的 o3-mini](https://baoyu.io/blog/openai-day12-o3-o3-mini-model-release)
-
-> *2024-12-21 05:37:27 · 宝玉的分享*
-
-OpenAI 发布了新一代推理模型 o3 和成本效益卓越的 o3-mini。o3 在 SWE-bench Verified 上准确率达 71.7%，比 o1 提升 20%，并在 GPQA Diamond 基准测试中首次突破人类水平。o3-mini 支持三种推理努力级别，性能和成本效益更高，中等推理时间下性能超过 o1。
-
+苹果智能摘要功能因多次出现错误总结新闻事件而遭到用户投诉和嘲讽，甚至有媒体教用户如何关闭该功能。这一风波凸显了苹果智能在实际应用中的可靠性问题。
 
 ---
 
-### [🔥 Phi-4迎来40%性能提升！](https://hub.baai.ac.cn/view/42055)
+### [🎯 通过ARC-AGI的测试并不等于实现了通用人工智能](https://www.36kr.com/p/3088122103117959)
 
-> *2024-12-21 09:50:00 · 智源社区*
+> *2024-12-21 12:41:01 · 36氪 - AI相关文章*
 
-Phi-4在性能上比原版提升了40%，并在多项复杂场景下展示了优越性。该模型在分子结构预测方面超过了Alpha Fold 3，并能够处理包括共价修饰和蛋白-RNA复合体在内的复杂场景。
-
-
----
-
-### [💻 ChatGPT 桌面应用新增多项无缝协作功能](https://baoyu.io/blog/openai-day11-chatgpt-desktop-app-seamless-workflow)
-
-> *2024-12-21 05:30:03 · 宝玉的分享*
-
-OpenAI 展示了 ChatGPT 桌面应用的新功能，包括与 Warp 终端、Xcode IDE 的智能协作，对 Notion、Apple Notes、Quip 等应用的支持，以及高级语音交互模式。可实现在 Xcode 中自动补全代码并生成可视化图表。Mac 版本已发布，Windows 版本将陆续推出。
-
+当前关于通用人工智能（AGI）的研发仍在进行中，尽管某些模型在特定测试如ARC-AGI中表现出色，但专家指出，这只是迈出了重要一步，实际的AGI实现仍然存在许多挑战和不确定性。
 
 ---
 
-### [👀 HelixFold3重磅升级，RNA结构预测精度大幅提升](https://hub.baai.ac.cn/view/42054)
+### [📊 GitHub 年末热搜出炉：十大热门项目揭晓](https://juejin.cn/post/7450701376885899318)
 
-> *2024-12-21 09:30:00 · 智源社区*
+> *2024-12-21 15:10:46 · 掘金 人工智能*
 
-百度螺旋桨团队发布的HelixFold3在RNA结构预测等领域取得了显著进步，超越了AlphaFold3的准确性。该模型在多个复杂场景下展现出更高精度，并能够支持更具复杂性的生物计算任务。
-
+GitHub 于12月发布了2024年十大热门项目排行榜，涵盖了开源项目和技术创新成果。这些项目在技术界引起了广泛关注。
 
 ---
 
-### [💡 Gemini 2.0 Flash Thinking发布，加速创新思维进程](https://hub.baai.ac.cn/view/42052)
+### [📱 贴近生活的AI：OPPO与鸿蒙元服务，手机互传新方式探索](https://www.36kr.com/p/3088086092839298)
 
-> *2024-12-21 09:30:00 · 智源社区*
+> *2024-12-21 12:57:45 · 36氪 - 24小时热榜*
 
-阿里云推出的Gemini 2.0 Flash Thinking不仅能加速生成思想，还能够动态生成大规模高质量文本。该模型通过多项测试，展示了其在复杂任务中的强大能力，成为AI创新的关键工具。
+OPPO和华为分别推出了类似AirDrop功能的移动互联技术，OPPO通过轻App实现一碰互传，而华为通过鸿蒙元服务简化了日常互传过程。这两种新方式在提升用户体验的同时，也为手机和生态互传提供了新的思路。未来类似“服务直达”的方式有望成为主流，实现手机无需安装App也能完成必要操作。
+
+---
+
+### [💰 向佐没疯，他赚疯了：APP应用赚得盆满钵满](https://www.36kr.com/p/3087940258265473)
+
+> *2024-12-21 13:30:03 · 36氪 - AI相关文章*
+
+近日，《创业圈》报道了应用程序市场上的惊人赚钱现象，其中一款名为向佐的应用以其出色的变现能力受到关注。这款应用通过创新的盈利模式，成功吸引了大量用户，实现了商业上的巨大收益。
+
+---
+
+### [🔍 被大众遗忘的轻App：依然有其生存空间](https://www.36kr.com/p/3088086092839298)
+
+> *2024-12-21 12:57:45 · 36氪 - AI相关文章*
+
+轻应用因其低功耗和高灵活性，依然在某些细分市场中占据一席之地。尽管在大众市场中的关注度不高，但轻应用通过精细的用户体验设计，满足了特定用户群体的需求，显示了其独特的价值。
+
+---
+
+### [💡 Rust与C++结合：Rust程序员的新选择](https://juejin.cn/post/7450701107577454628)
+
+> *2024-12-21 14:58:36 · 掘金 人工智能*
+
+国外Rust程序员分享了一种将Rust与C++结合使用的方法，旨在利用Rust的内存安全性和C++的性能优势。
+
+---
+
+### [🚀 CUDA基础编程：深度学习新一步](https://juejin.cn/post/7450690869248262159)
+
+> *2024-12-21 11:35:11 · 掘金 人工智能*
+
+CUDA基础编程教程开启深度学习的GPU加速之路。这份教程对初学者和开发者都非常有帮助，旨在提升性能和效率。

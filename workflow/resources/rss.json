@@ -1,34 +1,30 @@
 {
     "configuration": {
         "rsshub_domain": "https://rsshub.zhangferry.com/",
-        "max_articles": 50
+        "max_articles": 150
     },
     "categories": [
         {
             "category": "🤖 AI News",
             "items": [
                 {
-                    "title": "智鹭AI日报",
-                    "url": "https://www.aiheron.com/rss19",
-                    "description": "AI日报资讯",
-                    "output_count": 5
-                },
-                {
-                    "title": "掘金人工智能", 
-                    "rsshub_path": "juejin/category/ai",
-                    "description": "掘金AI分类文章",
-                    "output_count": 5
-                },
-                {
-                    "title": "掘金AI周榜",
-                    "rsshub_path": "juejin/trending/ai/weekly",
-                    "description": "掘金AI本周最热",
-                    "output_count": 5
-                },
-                {
                     "title": "量子位",
                     "rsshub_path": "qbitai/category/%E8%B5%84%E8%AE%AF",
                     "description": "AI新闻资讯",
+                    "output_count": 5
+                },
+                {
+                    "title": "机器之心", 
+                    "url": "https://zhuanlan.zhihu.com/jiqizhixin",
+                    "description": "AI技术与产业深度报道",
+                    "type": "link",
+                    "output_count": 5
+                },
+                {
+                    "title": "新智元",
+                    "url": "https://plink.anyfeeder.com/weixin/AI_era",
+                    "description": "AI前沿资讯与深度分析",
+                    "type": "link",
                     "output_count": 5
                 },
                 {
@@ -38,178 +34,34 @@
                     "output_count": 5
                 },
                 {
-                    "title": "机器之心",
-                    "url": "https://www.jiqizhixin.com/rss",
-                    "type": "link", 
+                    "title": "AIbase AI标签",
+                    "rsshub_path": "aibase/topic/AI",
+                    "description": "AI行业动态与技术资讯",
                     "output_count": 5
                 },
                 {
-                    "title": "新智元",
-                    "url": "https://plink.anyfeeder.com/weixin/AI_era",
-                    "type": "link",
+                    "title": "36kr AI资讯",
+                    "rsshub_path": "36kr/search/articles/AI",
+                    "description": "36氪AI相关新闻报道",
                     "output_count": 5
                 },
                 {
-                    "title": "OpenAI Blog",
-                    "url": "https://openai.com/news/rss.xml",
-                    "description": "OpenAI官方博客",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "OpenAI Twitter",
-                    "rsshub_path": "twitter/user/openai",
-                    "description": "OpenAI官方推特",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "TechCrunch AI",
-                    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-                    "description": "TechCrunch AI频道",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "MIT Tech Review AI",
-                    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-                    "description": "MIT科技评论AI频道",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "DeepMind Blog",
-                    "url": "https://deepmind.google/blog/feed/basic/",
-                    "description": "DeepMind官方博客",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "Google AI Blog",
-                    "url": "http://feeds.feedburner.com/blogspot/gJZg",
-                    "description": "Google AI官方博客",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "Anthropic Blog",
-                    "url": "https://www.anthropic.com/feed.xml",
-                    "description": "Anthropic官方博客",
-                    "type": "link",
-                    "output_count": 3
-                },
-                {
-                    "title": "Hugging Face Blog",
-                    "url": "https://huggingface.co/blog/feed.xml",
-                    "description": "Hugging Face官方博客",
-                    "type": "link",
-                    "output_count": 3
-                }
-            ]
-        },
-        {
-            "category": "📚 AI Blogs",
-            "items": [
-                {
-                    "title": "独立开发沉思录",
-                    "url": "https://quail.ink/hack-thinking/feed/atom",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "歸藏的AI工具箱",
-                    "rsshub_path": "weibo/user/6182606334",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "宝玉的分享",
-                    "url": "https://s.baoyu.io/feed.xml",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "阮一峰的网络日志",
-                    "url": "http://www.ruanyifeng.com/blog/atom.xml",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "智源社区",
-                    "rsshub_path": "baai/hub",
-                    "description": "BAAI智源社区",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "PaperWeekly",
-                    "url": "https://plink.anyfeeder.com/weixin/paperweekly",
-                    "description": "AI论文解读",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "我爱自然语言处理",
-                    "url": "https://www.52nlp.cn/feed",
-                    "description": "NLP技术博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "AI前线",
-                    "url": "https://plink.anyfeeder.com/weixin/AI_Frontier",
-                    "description": "AI技术前沿",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Karpathy Blog",
-                    "url": "https://karpathy.github.io/feed.xml",
-                    "description": "Andrej Karpathy的博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Sebastian Ruder",
-                    "url": "https://ruder.io/rss/index.rss",
-                    "description": "Sebastian Ruder的博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Chip Huyen",
-                    "url": "https://huyenchip.com/feed.xml",
-                    "description": "Chip Huyen的博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "李沐ML",
-                    "url": "https://plink.anyfeeder.com/weixin/MuLi-AI",
-                    "description": "李沐机器学习",
-                    "type": "link",
-                    "output_count": 2
-                }
-            ]
-        },
-        {
-            "category": "📰 AI Daily",
-            "items": [
-                {
-                    "title": "XiaoHu.AI日报",
-                    "url": "https://xiaohu.ai/c/ainews/feed",
-                    "type": "link",
-                    "output_count": 5
-                },
-                {
-                    "title": "AIbase日报",
-                    "rsshub_path": "rsshub/transform/html/https%3A%2F%2Fwww.aibase.com%2Fzh%2Fdaily",
-                    "type": "link",
+                    "title": "掘金人工智能",
+                    "rsshub_path": "juejin/category/ai",
+                    "description": "掘金AI分类文章",
                     "output_count": 5
                 },
                 {
                     "title": "梭哈AI",
                     "url": "https://www.163264.com/feed",
+                    "description": "AI技术与应用分享",
+                    "type": "link",
+                    "output_count": 5
+                },
+                {
+                    "title": "智鹭AI日报",
+                    "url": "https://www.aiheron.com/rss19",
+                    "description": "AI日报资讯", 
                     "type": "link",
                     "output_count": 5
                 },
@@ -219,224 +71,53 @@
                     "description": "每日AI动态汇总",
                     "type": "link",
                     "output_count": 5
-                }
-            ]
-        },
-        {
-            "category": "🔬 Tech News",
-            "items": [
+                },
+                {
+                    "title": "XiaoHu.AI日报",
+                    "url": "https://xiaohu.ai/c/ainews/feed",
+                    "description": "每日AI要闻速递",
+                    "type": "link",
+                    "output_count": 5
+                },
+                {
+                    "title": "深潮TechFlow快讯",
+                    "rsshub_path": "techflowpost/express",
+                    "description": "科技创新与前沿资讯",
+                    "output_count": 5
+                },
+                {
+                    "title": "36氪 - 24小时热榜",
+                    "rsshub_path": "36kr/hot-list",
+                    "description": "36氪热榜",
+                    "output_count": 5
+                },
                 {
                     "title": "APPSO",
                     "url": "https://werss.anan.eu.org/2392024520.xml",
                     "description": "APPSO",
                     "type": "link",
-                    "output_count": 2
+                    "output_count": 5
                 },
                 {
                     "title": "爱范儿",
                     "url": "https://www.ifanr.com/feed",
                     "description": "爱范儿",
                     "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "36氪 - 24小时热榜",
-                    "rsshub_path": "36kr/hot-list",
-                    "description": "36氪热榜",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "月光博客",
-                    "url": "https://www.williamlong.info/rss.xml",
-                    "description": "月光博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Black Forest Labs",
-                    "url": "https://blackforestlabs.ai/feed/",
-                    "description": "Black Forest Labs",
-                    "type": "link",
-                    "output_count": 2
+                    "output_count": 5
                 },
                 {
                     "title": "少数派",
                     "url": "https://sspai.com/feed",
                     "description": "少数派",
                     "type": "link",
-                    "output_count": 2
+                    "output_count": 5
                 },
                 {
                     "title": "信息差",
                     "url": "https://gapis.money/rss.xml",
                     "description": "独立开发者出海周刊",
                     "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "潮流周刊",
-                    "url": "https://weekly.tw93.fun/rss.xml",
-                    "description": "潮流周刊",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "道长的思维铺子",
-                    "url": "http://www.jintiankansha.me/rss/GIYDEMRZGV6GCNDFHEZTMNDFG4YWGYRQGFRGKNZYGEYDIMJVGA3TMOBRGRQTCYZUGM3WKNBUMY2Q====",
-                    "description": "今天看啥",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Platform Thinking",
-                    "url": "https://pt.plus/rss/",
-                    "description": "Platform Thinking",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Ralph Ammer",
-                    "url": "https://ralphammer.com/feed/",
-                    "description": "Ralph Ammer",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Product Hunt",
-                    "url": "https://www.producthunt.com/feed?category=undefined",
-                    "description": "Product Hunt",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "L先生说",
-                    "url": "https://werss.bestblogs.dev/feeds/MP_WXS_3015646136.atom",
-                    "description": "L先生说",
-                    "type": "link",
-                    "output_count": 2
-                }
-            ]
-        },
-        {
-            "category": "🎨 AI Creative",
-            "items": [
-                {
-                    "title": "Runway Blog",
-                    "url": "https://runway.com/blog/rss",
-                    "description": "Runway AI官方博客",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
-                },
-                {
-                    "title": "Midjourney Blog",
-                    "url": "https://blog.midjourney.com/rss",
-                    "description": "Midjourney官方博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Stability AI Blog",
-                    "url": "https://stability.ai/blog/rss",
-                    "description": "Stability AI官方博客",
-                    "type": "link",
-                    "output_count": 2
-                }
-            ]
-        },
-        {
-            "category": "🎤 AI Voice & Video",
-            "items": [
-                {
-                    "title": "ElevenLabs Blog",
-                    "url": "https://elevenlabs.io/blog/rss",
-                    "description": "ElevenLabs官方博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Synthesia Blog",
-                    "url": "https://www.synthesia.io/blog/rss",
-                    "description": "Synthesia官方博客",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
-                }
-            ]
-        },
-        {
-            "category": "🛠️ AI Dev Tools",
-            "items": [
-                {
-                    "title": "Cursor Blog",
-                    "url": "https://cursor.sh/blog/rss",
-                    "description": "Cursor官方博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Vercel AI Blog",
-                    "url": "https://vercel.com/blog/ai/rss",
-                    "description": "Vercel AI相关博客",
-                    "type": "link",
-                    "output_count": 2
-                },
-                {
-                    "title": "Replit Blog",
-                    "url": "https://blog.replit.com/rss",
-                    "description": "Replit官方博客",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
-                }
-            ]
-        },
-        {
-            "category": "🎯 AI Applications",
-            "items": [
-                {
-                    "title": "Krea AI Blog",
-                    "url": "https://krea.ai/blog/rss",
-                    "description": "Krea AI官方博客",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
-                },
-                {
-                    "title": "36氪出海",
-                    "rsshub_path": "36kr/motif/327685517761",
-                    "description": "AI出海应用",
-                    "type": "link",
-                    "output_count": 2                
-                },
-                {
-                    "title": "AI应用周刊",
-                    "url": "https://a16z.com/tag/ai/feed/",
-                    "description": "a16z AI应用观察",
-                    "type": "link",
-                    "output_count": 2                
-                }
-            ]
-        },
-        {
-            "category": "🔮 AI Hardware",
-            "items": [
-                {
-                    "title": "雷锋网智能硬件",
-                    "url": "https://www.leiphone.com/category/aihardware/rss",
-                    "description": "AI硬件新闻",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
-                },
-                {
-                    "title": "动点科技硬件",
-                    "rsshub_path": "technode/hardware",
-                    "description": "硬件创新资讯",
-                    "type": "link",
-                    "output_count": 2,
-                    "image_enable": true
+                    "output_count": 5
                 }
             ]
         }

@@ -1,0 +1,10 @@
+2024-12-21 16:18:38.985 | INFO     | workflow.article.rss:parse_rss_config:96 - https://zhuanlan.zhihu.com/jiqizhixin content of today is empty
+2024-12-21 16:18:48.981 | INFO     | workflow.article.rss:parse_rss_config:96 - https://rsshub.app/aibase/topic/AI content of today is empty
+2024-12-21 16:19:03.844 | INFO     | workflow.article.rss:parse_rss_config:96 - https://rsshub.app/36kr/search/articles/AI content of today is empty
+2024-12-21 16:19:12.270 | INFO     | workflow.article.rss:parse_rss_config:96 - https://www.aiheron.com/rss19 content of today is empty
+2024-12-21 16:19:13.943 | INFO     | workflow.article.rss:parse_rss_config:96 - https://sanhua.himrr.com/daily-news/feed content of today is empty
+2024-12-21 16:19:16.219 | INFO     | workflow.article.rss:parse_rss_config:96 - https://xiaohu.ai/c/ainews/feed content of today is empty
+2024-12-21 16:19:38.066 | INFO     | workflow.article.rss:parse_rss_config:96 - https://rsshub.app/techflowpost/express content of today is empty
+2024-12-21 16:19:45.646 | INFO     | workflow.article.rss:parse_rss_config:96 - https://rsshub.zhangferry.com/36kr/hot-list content of today is empty
+2024-12-21 16:19:46.848 | INFO     | workflow.article.rss:parse_rss_config:96 - https://werss.anan.eu.org/2392024520.xml content of today is empty
+2024-12-21 16:19:49.154 | INFO     | workflow.article.rss:parse_rss_config:96 - https://gapis.money/rss.xml content of today is empty

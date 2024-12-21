@@ -70,7 +70,7 @@ def find_favorite_article(rss_articles):
     - 去除重复或相似的文章
     """
     # 限制分析文章数量
-    max_analyze_nums = 100
+    max_analyze_nums = 150
     rss_articles = rss_articles[:max_analyze_nums]
     max_article_nums = int(os.environ.get("MAX_ARTICLE_NUMS", "30"))
     
@@ -198,6 +198,9 @@ def save_article(articles, draft_folder):
         articles: 文章列表
         draft_folder: 缓存目录
     """
+    # 确保缓存目录存在
+    os.makedirs(draft_folder, exist_ok=True)
+    
     data = []
     path = f"{draft_folder}/article_cache_{datetime.date.today().strftime('%Y-%m-%d')}.json"
     # 将文章对象转换为字典
