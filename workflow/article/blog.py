@@ -19,35 +19,49 @@ class Blog:
 
 
 def make_daily_markdown_with(articles, rss_list):
+    """生成每日markdown文档
+    
+    Args:
+        articles: 已评分的文章列表
+        rss_list: 原始RSS列表
+    """
     tags = []
     article_titles = []
 
+    # 首先按评分对所有文章进行排序
+    articles.sort(key=lambda x: x.evaluate["score"], reverse=True)
+    
+    # 获取分类列表
     category_list = []
-    # 文章列表有可能因为评分打乱了排序，再次从原始配置获取顺序
     for rss in rss_list:
         if rss.config["category"] not in category_list:
             category_list.append(rss.config["category"])
 
+    # 收集标题和标签
+    for article in articles:
+        tags.extend(article.evaluate.get("tags", []))
+        article_titles.append(article.evaluate["title"])
+
+    # 按分类生成内容，但保持评分排序
     category_contents = []
     for category in category_list:
-        for article in articles:
-            if article.config["category"] != category:
-                continue
-            tags.extend(article.evaluate.get("tags", []))
-            article_titles.append(article.evaluate["title"])
+        category_articles = [a for a in articles if a.config["category"] == category]
+        if category_articles:
+            category_contents.append(make_daily_category(category=category, articles=category_articles))
 
-        category_contents.append(make_daily_category(category=category, articles=articles))
-
+    # 生成文档
     md_path, meta_data = make_meta_data(description="\n".join(article_titles), tags=tags)
-    daily_guide = make_daily_guide(article_titles)
+    daily_guide = make_daily_guide(article_titles)  # 标题列表已经按评分排序
+    
     if len(category_contents) == 0:
         logger.error("category content is empty!")
         return
+        
     blog = Blog(metadata=meta_data, guide=daily_guide, categories=category_contents)
-    logger.info(f"make blog success: {meta_data}")
+    content = blog.make_blog()
+    
     with open(md_path, "w") as fp:
-        fp.write(blog.make_blog())
-        logger.info(f"write to file: {md_path}")
+        fp.write(content)
 
 
 def make_meta_data(description, tags):
@@ -82,28 +96,42 @@ tags:
 
 
 def make_daily_category(category, articles):
+    """生成分类内容
+    
+    Args:
+        category: 分类名称
+        articles: 该分类下的文章列表(已按评分排序)
+    """
     if not articles:
         return ""
-    content = ""
-    for article in articles:
-        if article.config["category"] != category:
-            continue
+        
+    content = f"## {category}\n"
+    
+    # 文章已经按评分排序，直接生成内容
+    for i, article in enumerate(articles):
         cover = f"![]({article.cover_url})" if article.cover_url else ""
         article_intro = f"""
 ### [{article.evaluate["title"]}]({article.link})
 
-来源：{article.info["title"]}
+> *{article.date} · {article.info["title"]}*
 
-发布时间：{article.date}
-{cover}
 {article.evaluate["summary"]}
-"""
+{cover}"""
+        
+        # 为除最后一篇外的所有文章添加分隔符
+        if i < len(articles) - 1:
+            article_intro += "\n\n---\n"
+            
         content += article_intro
-    if content:
-        content = f"## {category}\n" + content
+        
     return content
 
 
 def make_daily_guide(titles):
+    """生成文章导航
+    
+    Args:
+        titles: 已按评分排序的标题列表
+    """
     guide = "".join([f"> - {item}\n" for item in titles])
     return f"\n{guide}\n"

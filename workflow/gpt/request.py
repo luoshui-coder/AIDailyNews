@@ -23,7 +23,7 @@ class AIProvider:
         api_key = os.environ.get("GPT_API_KEY")
         if not api_key:
             raise ValueError("ai provider api key is empty!")
-        model = os.environ.get("GPT_MODEL_NAME", "gpt-3.5-turbo" if name == "openai" else "gemini-pro")
+        model = os.environ.get("GPT_MODEL_NAME", "Qwen/Qwen2.5-7B-Instruct" if name == "openai" else "gemini-pro")
         base_url = os.environ.get("GPT_BASE_URL", "https://api.openai.com")
 
         # update config.json
